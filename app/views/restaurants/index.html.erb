@@ -1,0 +1,8 @@
+<% @restaurants.each do |restaurant| %>
+<div class="mt-4">
+<ul>
+<li><%= link_to restaurant.name, restaurant_path(restaurant)%></li>
+</ul>
+</div>
+
+<% end %>
